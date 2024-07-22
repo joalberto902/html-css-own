@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        /* body{
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascotes.png');
+        } */
+        div.quadrado{
+            display: inline-block;
+            margin: 5px;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            border:2px solid black;
+            border-radius:20px;
+        }
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+        div#q3{
+            background-image: url('../../imagens-cap19/pattern003.png');
+        }
+        div#fora{
+            height: 96vh;
+            background-color: #bd7df5;
+            position: relative;
+        }
+        div#dentro{
+            height: 200px;
+            width: 300px;
+            background-color: #f5ff40;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>    
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
+</body>
+</html>

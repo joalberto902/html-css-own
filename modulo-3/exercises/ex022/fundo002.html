@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo 002</title>
+    <style>
+        div{
+            width:80%;
+            height: 400px;
+            background-color: lightgray;
+            border: 2px solid black;
+        }
+        div#repete{
+            background-image: url('../../imagens-cap19/pattern001.png');
+            background-repeat: repeat;
+        }
+        div#repetex{
+            background-image:url('../../imagens-cap19/pattern002.png');
+            background-repeat: repeat-x;
+        }
+        div#repetey{
+            background-image: url('../../imagens-cap19/pattern003.png');
+            background-repeat: repeat-y;
+        }
+        div#semrepete{
+            background-image: url('../../imagens-cap19/pattern004.png');
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Repetições em background-image</h1>
+    <h2>background-image:repeat;</h2>
+    <p>Repete a imagem tanto no sentido vertical quanto no horizontal(padrão)</p>
+    <div id="repete">
+    </div>
+    <h2>background-image:repeat-x;</h2>
+    <p>Repete a imagem só no sentido horizontal</p>
+    <div id="repetex">
+    </div>
+    <h2>background-image: repeat-y;</h2>
+    <p>Repete a imagem apenas no sentido vertical</p>
+    <div id="repetey"></div>
+    <h2>background-image:no-repeat;</h2>
+    <p>Não repete a imagem nenhuma vez, carrega ela apenas uma vez.</p>
+    <div id="semrepete">
+    </div>
+</body>
+</html>
