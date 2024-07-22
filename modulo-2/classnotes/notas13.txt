@@ -1,0 +1,40 @@
+Cores:
+1.Emoções relacionadas a cores:
+1.1 - Psicologia das cores: As cores evocam sentimentos de forma imediata sem ser racionalmente. Nós decidimos se iremos comprar ou ficar num site muitas vezes baseadas nas cores do site. Portanto é muito necessário sempre harmonizar as cores dos nossos sites construídos.
+Exemplo: "Facebook, Twitter, LinkedIn, DELL, Intel usam azul como cor principal dos seus sites e logos. O azul simboliza competência, sabedoria, calma, confiança, profissionalismo, integralidade e segurança"
+Dicas: Embora fundo preto e texto branco seja uma combinação bonita com bastante contraste, ela não deve ser usada quando se tem muito texto, pois causa muito cansaço ocular. Use fundo branco e letras pretas de forma tradicional nesse caso.
+2. Representando cores com CSS3:
+2.1 - Formas de representar cores no código:
+    -----> Pelo nome da cor
+    -----> Pelo código rgb(red, blue, green)
+    -----> Pelo código hexadecimal "#000000 "
+    -----> Pelo código Hsl(hue, saturation,luminosity)
+    -----> Pelo código rgba(red, blue, green, alpha)
+3. Harmonia de cores:
+3.1 - O círculo cromático: Doze cores (Amarelo, amarelo alaranjado, laranja, vermelho alaranjado, vermelho, vermelho arroxeado, violeta, azul arroxeado, azul, azul esverdeado, verde, amarelo esverdeado). O foco desse estudo é a harmonia e simetria das cores.
+-Existem Cores primárias: Amarelo, Vermelho e Azul.
+-Existem Cores Secundáris: Laranja, Violeta e Verde.
+-Qualquer outra cor é terciária: Amarelo alaranjado, vermelho alaranjado, vermelho arroxeado, azul arroxeado, azul esverdeado e amarelo esverdeado. São chamados também de tons pastéis das cores.
+3.2 - Divisões e Harmonia do círculo cromático:
+Do Amarelo ao vermelho arroxeado, as cores são chamadas quentes.
+Do Violeta ao Amarelo esverdeado, as cores são chamadas frias.
+As paletas de cores são organizações das cores de forma específica para gerar harmonia. As paletas sempre partem de uma cor principal, mas serão compostas por 3-5 cores, preto e branco exclusos afinal estão sempre presentes.
+Cores complementares são aquelas que tem o maior contraste entre si: (Amarelo e Violeta);Vermelho e Verde; Azul e Laranja, etc. Cores opostas no círculo cromático.
+As cores análogas são cores que não tem grande contraste com a cor principal, porém a diferença do tom é perceptível. No círculo cromático são as cores adjacentes a cor principal:(Amarelo: Amarelo esverdeado e Amarelo alaranjado). Geram harmonia.
+
+É possível usar as cores análogas e a complementar para gerar uma paleta que tem a principal, cores harmonizantes e uma cor contrastante.
+
+As cores análogas relacionadas geram um paleta, escolha duas cores análogas, pule uma das terceiras cores possíveis e escolha a quarta. Assim gera-se uma paleta de cores que tem cores harmonizantes e um contraste não tão grande mas ainda relacionado a cor principal.Exemplo: Amarelo, Amarelo alaranjado e então Vermelho.
+
+As cores intercaladas são aquelas em que vocẽ pula elementos no círculo. Exemplo: Amarelo, Laranja e Vermelho. Geram paletas duras mas que ainda podem ser úteis em alguns casos.
+
+As cores triádicas são cores que estão espaçadas por quatro cores no círculo cromático. Exemplo: Amarelo, Vermelho e Azul.
+As cores em quadrado são as cores que estão espaçadas por três cores no círculo cromático. Exemplo: Amarelo, Laranja avermelhado, Violeta e Azul esverdeado.
+As cores tetrádicas são aquelas em que se pegam qualquer duas cores e suas complementares.Exemplo: Amarelo, Violeta, Vermelho e Verde.
+
+As paletas monocromáticas são a que usam uma só cor do círculo porém mudando sua saturação e luminosidade. Famoso degradê.
+
+4. Gradientes em CSS:
+- No style do body no head criar o seletor background-image: linear-gradient(ang, color, color);
+- No style geral, a config global é *{} e é possível usar seletores nela.
+- pode se usar também radial-gradient para criar um degradê em círculos.

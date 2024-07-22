@@ -1,0 +1,6 @@
+Tópicos do módulo 2 de HTML e CSS: do cap 13 ao cap 17
+cap13: Estudo das cores
+cap14: Tipos e tipografia
+cap15: CSS id e class
+cap16: Modelo de Caixas
+cap17: Criar um site do Zero
